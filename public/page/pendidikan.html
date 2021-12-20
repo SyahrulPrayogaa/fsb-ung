@@ -156,30 +156,95 @@
 
         <div class="row mt-4">
           <div class="col-md d-flex justify-content-center">
-            <div class="chart-box">
-              <canvas id="mahasiswaChart"></canvas>
-              <!-- <div class="chart-info">
+            <div class="chart-box mahasiswa-chart">
+              <canvas id="mahasiswaChart" width="400"></canvas>
+              <div class="chart-info">
                 <h2 class="num-title">1024</h2>
                 <h4 class="text-content text-center">Jumlah Mahasiswa</h4>
-              </div> -->
+              </div>
             </div>
           </div>
-          <!-- <div class="col-md d-flex justify-content-center">
+          <div class="col-md d-flex justify-content-center">
             <div class="chart-box">
-              <canvas id="alumniChart"></canvas>
+              <canvas id="alumniChart" width="400"></canvas>
               <div class="chart-info">
                 <h2 class="num-title">1024</h2>
                 <h4 class="text-content text-center">Jumlah Alumni</h4>
               </div>
             </div>
-          </div> -->
+          </div>
         </div>
       </div>
     </div>
 <!-- end of Mahasiswa -->
 
+<!-- Chart Mahasiswa -->
+<script>
+const ctx = document.getElementById('mahasiswaChart').getContext('2d');
+const myChart = new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+        labels: ['Pendidikan bahasa & sastra indonesia', 'Pendidikan bahasa inggris', 'pendidikan seni drama tari dan musik'],
+        datasets: [{
+            label: '# of Votes',
+            data: [120, 190, 100],
+            backgroundColor: [
+                '#10002B','#3C096C','#FF9E00',
+            ],
+            borderColor: [
+                'white'
+            ],
+            borderWidth: 1,
+            cutout:'70%'
+        }]
+    },
+    options: {
+        plugins: {
+            legend: {
+                position: 'bottom',
+                align: 'start',
+            }
+        },
+        layout:{
+        }
+    }
+});
+</script>
+<!-- end of Chart Mahasiswa -->
+
+<!-- Chart Alumni -->
+<script>
+  const ctx1 = document.getElementById('alumniChart').getContext('2d');
+const myChart1 = new Chart(ctx1, {
+    type: 'doughnut',
+    data: {
+        labels: ['Pendidikan bahasa & sastra indonesia', 'Pendidikan bahasa inggris', 'pendidikan seni drama tari dan musik'],
+        datasets: [{
+            label: '# of Votes',
+            data: [90, 100, 50],
+            backgroundColor: [
+                '#10002B','#3C096C','#FF9E00',
+            ],
+            borderColor: [
+                'white'
+            ],
+            borderWidth: 1,
+            cutout:'70%'
+        }]
+    },
+    options: {
+        plugins: {
+            legend: {
+                position: 'bottom',
+                align: 'start',
+            }
+        }
+    }
+});
 
 
+</script>
+<!-- end of Chart Alumni -->
 
 
 <!-- Modal -->
