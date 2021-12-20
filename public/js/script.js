@@ -1,5 +1,6 @@
 $(document).ready(function(){
-  $('#main-content').load('../public/page/home.html')
+  // $('#main-content').load('../public/page/home.html')
+  $('#main-content').load('../public/page/pendidikan.html')
   
   $('.nav-link').click(function(e){
     e.preventDefault();

@@ -415,12 +415,42 @@ a:hover{
   text-align: center;
 }
 
-.jurusan{
-  margin: 50px auto;
+.daftar-dosen-card{
+  margin: 10px 10px;
 }
-.jurusan .title-content-line{
-  width: 25%;
-  margin-left: -15px;
+
+.daftar-dosen-card:hover{
+  cursor: pointer;
+  
+}
+
+.daftar-dosen-card img{
+  width: 125px;
+  height: 125px;
+  object-fit: cover;
+}
+
+.daftar-dosen-card img:hover{
+  object-fit: scale-down;
+}
+
+.title-daftar-dosen{
+  position: relative;
+  width: 125px;
+  height: 50px;
+  background-color: var(--primary);
+  color: white;
+  border-left: 4px solid var(--secondary);
+  margin-top: -30px;
+  z-index: 1;
+}
+
+.title-daftar-dosen p{
+  position: relative;
+  top: 20%;
+  font-size: 10px;
+  font-weight: normal;
+  text-align: center;
 }
 
 .jurusan-card{

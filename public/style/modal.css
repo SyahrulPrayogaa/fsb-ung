@@ -1,0 +1,23 @@
+.modal-title{
+  font-size: large;
+}
+.modal-img img{
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.modal-name{
+  font-weight: bold;
+  font-size: medium;
+}
+
+.modal-body ol li{
+  list-style-type: none;
+}
+
+.modal-description{
+  font-size: small;
+}
+
+
