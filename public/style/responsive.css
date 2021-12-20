@@ -10,6 +10,14 @@
   .carousel-caption .display-6{
     font-size: 10px;
   }
+
+  .chart-info{
+    margin-top: -270px;
+    margin-bottom: 200px;
+  }
+  .chart-info .text-content{
+    font-size: 12px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

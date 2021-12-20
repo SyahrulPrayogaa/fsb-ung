@@ -1,11 +1,11 @@
 
     <!-- Carousel Jumbotron -->
     <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
+      <!-- <ol class="carousel-indicators">
         <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselIndicators" data-slide-to="1"></li>
         <li data-target="#carouselIndicators" data-slide-to="2"></li>
-      </ol>
+      </ol> -->
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="/assets/img/jumbotron-ung.jpeg" class="d-block w-100" alt="...">
@@ -32,53 +32,214 @@
     </div>
     <!-- End of Carousel Jumbotron -->
 
-    <!-- Berita -->
+    <!-- Statistik -->
     <div class="container mb-5">
       <div class="row justify-content-center">
-        <div class="col-10 berita">
-          <h3 class="title-content">Berita FSB</h3>
-          <div class="row">
-            <div class="col-md d-flex justify-content-center">
-              <div class="card" style="width: 15rem;">
-                <img src="/assets/img/pimpinan.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="card-btn">Lihat Berita</a>
+        <div class="col-10 statistik">
+          
+          <h3 class="title-content">Statistik Fakultas Sastra dan Budaya</h3>
+
+          <div class="row d-flex justify-content-center">
+            <div class="col-xl-6 col-lg-8 col-md-10 col-sm-12 ">
+              <div class="chart-box">
+                <canvas id="mahasiswaChart1" width="400"></canvas>
+                <div class="chart-info">
+                  <h2 class="num-title">1024</h2>
+                  <h4 class="text-content text-center">Jumlah Mahasiswa</h4>
                 </div>
               </div>
-            </div>
-            <div class="col-md d-flex justify-content-center">
-              <div class="card" style="width: 15rem;">
-                <img src="/assets/img/1256.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="card-btn">Lihat Berita</a>
-                </div>
-              </div>
-            </div>
-            <!-- <div class="col-md d-flex justify-content-center">
-              <div class="card" style="width: 15rem;">
-                <img src="/assets/img/1256.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="card-btn">Lihat Berita</a>
-                </div>
-              </div>
-            </div> -->
-          </div>
-          <div class="row">
-            <div class="col d-flex">
-              <a href="#" class="card-btn mr-4 ml-auto mb-2">Lihat Semua Berita</a>
             </div>
           </div>
+
+          <div class="row d-flex justify-content-center">
+            <!-- Jumlah Tenaga Pendidik -->
+            <div class="col-xl-6 col-lg-6">
+              <div class="row d-flex justify-content-center">
+                <div class="col-xs-6 tendik-col">
+                  <h2 class="num-title">10</h2>
+                  <h4 class="text-content">Profesor</h4>
+                </div>
+                <div class="col-xs-6 tendik-col">
+                  <h2 class="num-title">10</h2>
+                  <h4 class="text-content">Lektor Kepala</h4>
+                </div>
+              </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-xs-6 tendik-col">
+                  <h2 class="num-title">10</h2>
+                  <h4 class="text-content">Lektor</h4>
+                </div>
+                <div class="col-xs-6 tendik-col">
+                  <h2 class="num-title">10</h2>
+                  <h4 class="text-content">Asisten Ahli & Pengajar</h4>
+                </div>
+              </div>
+            </div>
+        <!-- end 0f Jumlah Tenaga Pendidik -->
+
+        <!-- Jumlah Dosen Tiap Jurusan -->
+          <div class="col-xl-5 col-lg-5">
+            <div class="chart-box">
+              <canvas id="dosenChart" width="150"></canvas>
+            </div>
+          </div>
+        <!-- Jumlah Dosen Tiap Jurusan -->
+
+          </div>
+
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-6 ">
+              <div class="chart-box">
+                <canvas id="penelitianChart" height="300"></canvas>
+              </div>
+            </div>
+
+            <div class="col-lg-6 ">
+              <div class="chart-box">
+                <canvas id="pengabdianChart" height="300"></canvas>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
-    <!-- End of Berita -->
+    <!-- End of Statistik -->
     
+    <!-- Chart Mahasiswa -->
+<script>
+  const ctx2 = document.getElementById('mahasiswaChart1').getContext('2d');
+  const myChart2 = new Chart(ctx2, {
+      type: 'doughnut',
+      data: {
+          labels: ['Pendidikan bahasa & sastra indonesia', 'Pendidikan bahasa inggris', 'pendidikan seni drama tari dan musik'],
+          datasets: [{
+              label: '# of Votes',
+              data: [120, 190, 100],
+              backgroundColor: [
+                  '#10002B','#3C096C','#FF9E00',
+              ],
+              borderColor: [
+                  'white'
+              ],
+              borderWidth: 1,
+              cutout:'70%'
+          }]
+      },
+      options: {
+          plugins: {
+              legend: {
+                  position: 'bottom',
+                  align: 'center',
+              }
+          },
+          layout:{
+          }
+      }
+  });
+  </script>
+  <!-- end of Chart Mahasiswa -->
+
+    <!-- Penelitian Chart -->
+<script>
+  const ctx3 = document.getElementById('penelitianChart').getContext('2d');
+  const myChart3 = new Chart(ctx3, {
+      type: 'bar',
+      data: {
+          labels: ['Jurnal Penelitian', 'Prosiding', 'HKI','penelitian', 'Hak Paten' ],
+          datasets: [{
+              label: 'DATA PENELITIAN',
+              data: [120, 190, 100, 50, 60],
+              backgroundColor: [
+                  '#10002B','#3C096C','#FF9E00',
+              ],
+              borderColor: [
+                  'white'
+              ],
+              borderWidth: 1,
+          }]
+      },
+      options: {
+          plugins: {
+              legend: {
+                  position: 'top',
+                  align: 'center',
+              }
+          },
+          layout:{
+          }
+      }
+  });
+  </script>
+  <!-- end of Penelitian Chart -->
+
+    <!-- Pengabdian Chart -->
+<script>
+  const ctx4 = document.getElementById('pengabdianChart').getContext('2d');
+  const myChart4 = new Chart(ctx4, {
+      type: 'bar',
+      data: {
+          labels: ['Pengabdian', 'Laporan Pengabdian', 'HKI','penelitian', 'Hak Paten' ],
+          datasets: [{
+              label: 'DATA PENGABDIAN',
+              data: [100, 90, 40, 30, 95],
+              backgroundColor: [
+                  '#10002B','#3C096C','#FF9E00',
+              ],
+              borderColor: [
+                  'white'
+              ],
+              borderWidth: 1,
+          }]
+      },
+      options: {
+          plugins: {
+              legend: {
+                  position: 'top',
+                  align: 'center',
+              }
+          },
+          layout:{
+          }
+      }
+  });
+  </script>
+  <!-- end of Pengabdian Chart -->
+
+    <!-- Pengabdian Chart -->
+<script>
+  const ctx5 = document.getElementById('dosenChart').getContext('2d');
+  const myChart5 = new Chart(ctx5, {
+      type: 'pie',
+      data: {
+          labels: ['Pendidikan bahasa & sastra indonesia', 'Pendidikan bahasa inggris', 'pendidikan seni drama tari dan musik'],
+          datasets: [{
+              label: 'DATA DOSEN',
+              data: [25, 35, 20],
+              backgroundColor: [
+                  '#10002B','#3C096C','#FF9E00',
+              ],
+              borderColor: [
+                  'white'
+              ],
+              borderWidth: 1,
+              cutout:'10'
+          }]
+      },
+      options: {
+          plugins: {
+              legend: {
+                  position: 'bottom',
+                  align: 'center',
+              }
+          },
+          layout:{
+          }
+      }
+  });
+  </script>
+  <!-- end of Pengabdian Chart -->
+
     <!-- Pendidikan -->
     <div class="pendidikan">
       <div class="container">

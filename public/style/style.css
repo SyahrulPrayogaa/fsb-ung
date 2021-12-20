@@ -175,8 +175,8 @@ a:hover{
 
 /* End of Carousel */
 
-/* Berita */
-.berita{
+/* Statistik */
+.statistik{
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   border-radius: 30px;
   margin-top: -30px;
@@ -184,16 +184,11 @@ a:hover{
   padding: 20px;
 }
 
-.berita .title-content{
+.statistik .title-content{
   text-align: center;
 }
 
-.berita .card-img-top{
-  height: 150px;
-  object-fit: cover;
-}
-
-/* End of Berita */
+/* End of Statistik */
 
 /* pendidikan */
 .pendidikan{

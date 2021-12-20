@@ -19,7 +19,7 @@ $(document).ready(function(){
       $('.nav-link').removeClass('active');
       $(this).addClass('active');
       $('#main-content').load('../public/page/penelitian.html'); 
-    }else if(menu == 'berita'){
+    }else if(menu == 'pengabdian'){
       $('.nav-link').removeClass('active');
       $(this).addClass('active');
       $('#main-content').load('../public/page/berita.html'); 
