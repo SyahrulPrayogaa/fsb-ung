@@ -329,7 +329,7 @@ a:hover{
 
 /* ===========PENELITIAN========== */
 .jumbotron{
-  background-image: url("/assets/img/jumbo-penelitian.png");
+  background-image: url("/assets/img/jumbo-penelitian.jpg");
   background-size: cover;
   height: 500px;
 }
@@ -348,7 +348,7 @@ a:hover{
   margin-bottom: 50px;
 }
 .tentang-jumbotron-img{
-  background-image: url("/assets/img/jumbo-penelitian.png");
+  background-image: url("/assets/img/jumbo-penelitian.jpg");
   background-size: cover;
   height: 250px;
   width: 100%;
@@ -367,7 +367,7 @@ a:hover{
   margin-bottom: 50px;
 }
 .pendidikan-jumbotron-img{
-  background-image: url("/assets/img/jumbo-penelitian.png");
+  background-image: url("/assets/img/jumbo-penelitian.jpg");
   background-size: cover;
   height: 250px;
   width: 100%;

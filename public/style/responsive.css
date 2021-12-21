@@ -73,8 +73,6 @@
 }
 
 .tentang-jumbotron-img{
-  background-image: url("/assets/img/jumbo-penelitian.png");
-  background-size: cover;
   height: 500px;
   width: 45%;
 }
@@ -96,7 +94,6 @@
 }
 
 .pendidikan-jumbotron-img{
-  background-image: url("/assets/img/jumbo-penelitian.png");
   background-size: cover;
   height: 500px;
   width: 65%;
