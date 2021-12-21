@@ -8,17 +8,17 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="/assets/img/jumbotron-ung.jpeg" class="d-block w-100" alt="...">
+          <img src="assets/img/jumbotron-ung.jpeg" class="d-block w-100" alt="...">
             <div class="carousel-caption">
               <h3 class="display-4">Fakultas Sastra dan Budaya</h3>
               <h3 class="display-6">Universitas Negeri Gorontalo</h3>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="/assets/img/1256.png" class="d-block w-100" alt="...">
+          <img src="assets/img/1256.png" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="/assets/img/pimpinan.png" class="d-block w-100" alt="...">
+          <img src="assets/img/pimpinan.png" class="d-block w-100" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-target="#carouselIndicators" data-slide="prev">
@@ -246,7 +246,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 d-flex justify-content-center">
-            <img src="/assets/img/Pendidikan.jpg" alt="">
+            <img src="assets/img/Pendidikan.jpg" alt="">
           </div>
           <div class="col-md-5">
             <h3 class="title-content mt-5">Pendidikan</h3>
@@ -270,11 +270,11 @@
             <a href="#" class="link-content">Selengkapnya -></a>
           </div>
           <div class="col-md-6 d-flex justify-content-end">
-            <img src="/assets/img/penelitian2.jpg" alt="">
+            <img src="assets/img/penelitian2.jpg" alt="">
           </div>
         </div>
         <div class="row">
-          <img src="/assets/img/penelitian1.jpg" alt="" class="penelitian-img">
+          <img src="assets/img/penelitian1.jpg" alt="" class="penelitian-img">
         </div>
       </div>
     </div>

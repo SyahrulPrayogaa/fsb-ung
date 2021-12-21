@@ -55,7 +55,7 @@
 
                   <div class="col-xs-2 d-flex justify-content-center">
                     <div class="daftar-dosen-card" data-toggle="modal" data-target="#dosenModal">
-                      <img src="/assets/img/wd2.png" alt="">
+                      <img src="assets/img/wd2.png" alt="">
                       <div class="title-daftar-dosen">
                         <p>Nama Dosen</p>
                       </div>
@@ -63,7 +63,7 @@
                   </div>
                   <div class="col-xs-2 d-flex justify-content-center">
                     <div class="daftar-dosen-card" data-toggle="modal" data-target="#dosenModal">
-                      <img src="/assets/img/wd2.png" alt="">
+                      <img src="assets/img/wd2.png" alt="">
                       <div class="title-daftar-dosen">
                         <p>Nama Dosen</p>
                       </div>
@@ -71,7 +71,7 @@
                   </div>
                   <div class="col-xs-2 d-flex justify-content-center">
                     <div class="daftar-dosen-card" data-toggle="modal" data-target="#dosenModal">
-                      <img src="/assets/img/wd2.png" alt="">
+                      <img src="assets/img/wd2.png" alt="">
                       <div class="title-daftar-dosen">
                         <p>Nama Dosen</p>
                       </div>
@@ -79,7 +79,7 @@
                   </div>
                   <div class="col-xs-2 d-flex justify-content-center">
                     <div class="daftar-dosen-card" data-toggle="modal" data-target="#dosenModal">
-                      <img src="/assets/img/wd2.png" alt="">
+                      <img src="assets/img/wd2.png" alt="">
                       <div class="title-daftar-dosen">
                         <p>Nama Dosen</p>
                       </div>
@@ -87,7 +87,7 @@
                   </div>
                   <div class="col-xs-2 d-flex justify-content-center">
                     <div class="daftar-dosen-card" data-toggle="modal" data-target="#dosenModal">
-                      <img src="/assets/img/wd2.png" alt="">
+                      <img src="assets/img/wd2.png" alt="">
                       <div class="title-daftar-dosen">
                         <p>Nama Dosen</p>
                       </div>
@@ -95,7 +95,7 @@
                   </div>
                   <div class="col-xs-2 d-flex justify-content-center">
                     <div class="daftar-dosen-card" data-toggle="modal" data-target="#dosenModal">
-                      <img src="/assets/img/wd2.png" alt="">
+                      <img src="assets/img/wd2.png" alt="">
                       <div class="title-daftar-dosen">
                         <p>Nama Dosen</p>
                       </div>
@@ -121,7 +121,7 @@
         <div class="row mt-3 ">
           <div class="col-md d-flex justify-content-center">
             <div class="jurusan-card">
-              <img src="/assets/img/wd1.png" alt="">
+              <img src="assets/img/wd1.png" alt="">
               <div class="title-jurusan">
                 <p>Pendidikan Bahasa dan Sastra Indonesia</p>
               </div>
@@ -129,7 +129,7 @@
           </div>
           <div class="col-md d-flex justify-content-center">
             <div class="jurusan-card">
-              <img src="/assets/img/wd2.png" alt="">
+              <img src="assets/img/wd2.png" alt="">
               <div class="title-jurusan">
                 <p>Pendidikan Bahasa Inggris</p>
               </div>
@@ -137,7 +137,7 @@
           </div>
           <div class="col-md d-flex justify-content-center">
             <div class="jurusan-card">
-              <img src="/assets/img/wd3.png" alt="">
+              <img src="assets/img/wd3.png" alt="">
               <div class="title-jurusan">
                 <p>Pendidikan Seni Drama Tari dan Musik</p>
               </div>
@@ -259,7 +259,7 @@ const myChart1 = new Chart(ctx1, {
       </div>
       <div class="modal-body">
           <div class="modal-img text-center mb-3">
-            <img src="/assets/img/dekan.png" alt="">
+            <img src="assets/img/wd2.png" alt="">
           </div>
           <h5 class="modal-name text-center">Nama Dosen</h5>
           <div class="container">

@@ -43,7 +43,7 @@
       <div class="row mt-4 ">
         <div class="col-md">
           <div class="card" style="width: 15rem; margin: 10px auto;">
-            <img src="/assets/img/dekan.png" class="card-img-top" alt="..." style="height: 240px;">
+            <img src="assets/img/dekan.png" class="card-img-top" alt="..." style="height: 240px;">
             <div class="card-body">
               <h5 class="card-title text-center">Dekan</h5>
               <p class="card-text text-center">Prof. Dra. Nonny Basalama, M.A., Ph.D</p>
@@ -54,7 +54,7 @@
       <div class="row mt-2 ">
         <div class="col-md">
           <div class="card" style="width: 15rem; margin: 10px auto;">
-            <img src="/assets/img/wd1.png" class="card-img-top" alt="..." style="height: 240px;">
+            <img src="assets/img/wd1.png" class="card-img-top" alt="..." style="height: 240px;">
             <div class="card-body">
               <h5 class="card-title text-center">Wakil Dekan I</h5>
               <p class="card-text text-center">Dr. Sitti Rachmi Masie, S.Pd., M.Pd</p>
@@ -63,7 +63,7 @@
         </div>
         <div class="col-md">
           <div class="card" style="width: 15rem; margin: 10px auto;">
-            <img src="/assets/img/wd2.png" class="card-img-top" alt="..." style="height: 240px;">
+            <img src="assets/img/wd2.png" class="card-img-top" alt="..." style="height: 240px;">
             <div class="card-body">
               <h5 class="card-title text-center">Wakil Dekan II</h5>
               <p class="card-text text-center">Rosma Kadir, S.Pd., M.A</p>
@@ -72,7 +72,7 @@
         </div>
         <div class="col-md">
           <div class="card" style="width: 15rem; margin: 10px auto;">
-            <img src="/assets/img/wd3.png" class="card-img-top" alt="..." style="height: 240px;">
+            <img src="assets/img/wd3.png" class="card-img-top" alt="..." style="height: 240px;">
             <div class="card-body">
               <h5 class="card-title text-center">Wakil Dekan III</h5>
               <p class="card-text text-center">Jafar Lantowa, S.Pd., M.A</p>

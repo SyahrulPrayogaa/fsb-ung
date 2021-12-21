@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/assets/src/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/src/bootstrap.min.css">
 
     <!-- Local CSS -->
-    <link rel="stylesheet" href="/public/style/style.css">
-    <link rel="stylesheet" href="/public/style/responsive.css">
-    <link rel="stylesheet" href="/public/style/modal.css">
+    <link rel="stylesheet" href="public/style/style.css">
+    <link rel="stylesheet" href="public/style/responsive.css">
+    <link rel="stylesheet" href="public/style/modal.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-    <link rel="icon" href="/assets/img/ung.png">
+    <link rel="icon" href="assets/img/ung.png">
     <title>Fakultas Sastra dan Budaya</title>
   </head>
   <body>
@@ -23,7 +23,7 @@
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-purple">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="/assets/img/ung.png" width="30" height="30" class="d-inline-block mr-2" alt="">
+          <img src="assets/img/ung.png" width="30" height="30" class="d-inline-block mr-2" alt="">
           Fakultas Sastra dan Budaya
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,7 +54,7 @@
       <div class="container">
       <div class="row">
         <div class="col-md d-flex justify-content-center">
-          <img src="/assets/img/ung.png" alt="">
+          <img src="assets/img/ung.png" alt="">
         </div>
         <div class="col-md-5">
           <h3 class="text-center">Fakultas Sastra dan Budaya</h3>
@@ -79,15 +79,15 @@
     <!-- end of footer -->
     
     
-    <script src="/assets/src/jquery-3.6.0.min.js"></script>
-    <script src="/assets/src/popper.min.js"></script>
-    <script src="/assets/src/bootstrap.min.js"></script>
+    <script src="assets/src/jquery-3.6.0.min.js"></script>
+    <script src="assets/src/popper.min.js"></script>
+    <script src="assets/src/bootstrap.min.js"></script>
 
     <!-- Chart JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.2/chart.min.js"></script>
-    <!-- <script src="/public/js/mahasiswaChart.js"></script> -->
+    <!-- <script src="public/js/mahasiswaChart.js"></script> -->
     <!-- <script src="alumniChart.js"></script> -->
 
-    <script src="/public/js/script.js"></script>
+    <script src="public/js/script.js"></script>
   </body>
 </html>
