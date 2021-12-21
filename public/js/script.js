@@ -1,6 +1,6 @@
 $(document).ready(function(){
-  // $('#main-content').load('../public/page/home.html')
   $('#main-content').load('../public/page/home.html')
+  // $('#main-content').load('../public/page/pengabdian.html')
   
   $('.nav-link').click(function(e){
     e.preventDefault();
@@ -22,7 +22,7 @@ $(document).ready(function(){
     }else if(menu == 'pengabdian'){
       $('.nav-link').removeClass('active');
       $(this).addClass('active');
-      $('#main-content').load('../public/page/berita.html'); 
+      $('#main-content').load('../public/page/pengabdian.html'); 
     }else if(menu == 'tentang'){
       $('.nav-link').removeClass('active');
       $(this).addClass('active');
