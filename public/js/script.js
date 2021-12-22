@@ -1,6 +1,6 @@
 $(document).ready(function(){
-  // $('#main-content').load('./public/page/home.php')
-  $('#main-content').load('./public/page/tentang.php')
+  $('#main-content').load('./public/page/home.php')
+  // $('#main-content').load('./public/page/tentang.php')
   
   $('.nav-link').click(function(e){
     e.preventDefault();
