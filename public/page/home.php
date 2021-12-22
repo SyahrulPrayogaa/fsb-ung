@@ -81,7 +81,7 @@
         <!-- Jumlah Dosen Tiap Jurusan -->
         <div class="col-xl-5 col-lg-5">
           <div class="chart-box">
-            <canvas id="dosenChart" width="150"></canvas>
+            <canvas id="dosenChart" height="300"></canvas>
           </div>
         </div>
         <!-- Jumlah Dosen Tiap Jurusan -->
@@ -154,7 +154,7 @@
         label: 'DATA PENELITIAN',
         data: [120, 190, 100, 50, 60],
         backgroundColor: [
-          '#10002B', '#3C096C', '#FF9E00',
+          '#5A198A', '#10002B', '#FF9E00', '#9D4EDD', '#FF6D00'
         ],
         borderColor: [
           'white'
@@ -186,7 +186,7 @@
         label: 'DATA PENGABDIAN',
         data: [100, 90, 40, 30, 95],
         backgroundColor: [
-          '#10002B', '#3C096C', '#FF9E00',
+          '#5A198A', '#10002B', '#FF9E00', '#9D4EDD', '#FF6D00'
         ],
         borderColor: [
           'white'
@@ -211,11 +211,11 @@
 <script>
   const ctx5 = document.getElementById('dosenChart').getContext('2d');
   const myChart5 = new Chart(ctx5, {
-    type: 'pie',
+    type: 'bar',
     data: {
-      labels: ['Pendidikan bahasa & sastra indonesia', 'Pendidikan bahasa inggris', 'pendidikan seni drama tari dan musik'],
+      labels: ['Basindo', 'Pbi', 'Sendratasik'],
       datasets: [{
-        label: 'DATA DOSEN',
+        label: 'DATA JUMLAH DOSEN',
         data: [25, 35, 20],
         backgroundColor: [
           '#10002B', '#3C096C', '#FF9E00',
@@ -230,7 +230,7 @@
     options: {
       plugins: {
         legend: {
-          position: 'bottom',
+          position: 'top',
           align: 'center',
         }
       },
