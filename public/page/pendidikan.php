@@ -50,14 +50,37 @@
 
         <!-- Daftar Dosen -->
         <div class="col-xl-8 col-lg-6">
-          <div class="row row-cols-sm-3 d-flex justify-content-center">
+          <div class="row row-cols-xl-4 d-flex justify-content-center">
 
-
             <div class="col-xs-2 d-flex justify-content-center">
               <div class="daftar-dosen-card" data-toggle="modal" data-target="#dosenModal">
                 <img src="assets/img/wd2.png" alt="">
                 <div class="title-daftar-dosen">
-                  <p>Nama Dosen</p>
+                  <p>Rosma Kadir, S.Pd., M.A</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-2 d-flex justify-content-center">
+              <div class="daftar-dosen-card" data-toggle="modal" data-target="#dosenModal">
+                <img src="assets/img/wd1.png" alt="">
+                <div class="title-daftar-dosen">
+                  <p>Dr. Sitti Rachmi Masie, S.Pd., M.Pd</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-2 d-flex justify-content-center">
+              <div class="daftar-dosen-card" data-toggle="modal" data-target="#dosenModal">
+                <img src="assets/img/wd3.png" alt="">
+                <div class="title-daftar-dosen">
+                  <p>Jafar Lantowa, S.Pd., M.A</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-2 d-flex justify-content-center">
+              <div class="daftar-dosen-card" data-toggle="modal" data-target="#dosenModal">
+                <img src="assets/img/wd2.png" alt="">
+                <div class="title-daftar-dosen">
+                  <p>Prof. Dra. Nonny Basalama, M.A., Ph.D</p>
                 </div>
               </div>
             </div>
@@ -93,19 +116,32 @@
                 </div>
               </div>
             </div>
-            <div class="col-xs-2 d-flex justify-content-center">
-              <div class="daftar-dosen-card" data-toggle="modal" data-target="#dosenModal">
-                <img src="assets/img/wd2.png" alt="">
-                <div class="title-daftar-dosen">
-                  <p>Nama Dosen</p>
-                </div>
-              </div>
-            </div>
-
 
           </div>
+
+          <!-- Pagination -->
+          <nav aria-label="Page navigation example">
+            <ul class="pagination pagination-sm justify-content-end">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <!-- end of Pagination -->
+
         </div>
         <!-- end of Daftar Dosen -->
+
       </div>
     </div>
   </div>
