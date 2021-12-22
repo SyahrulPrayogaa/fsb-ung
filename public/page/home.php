@@ -250,7 +250,7 @@
       <div class="col-md-5">
         <h3 class="title-content mt-5">Pendidikan</h3>
         <div class="title-content-line"></div>
-        <p class="text-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia esse ipsum voluptatum. Asperiores officiis doloribus qui ratione, nulla magni minima voluptate, tempore hic a consectetur fugiat. Maxime recusandae molestias ab?</p>
+        <p class="text-content">Fakultas Sastra dan Budaya memiliki 3 jurusan yang menyelenggarakan pendidikan program sarjana yang dapat diikuti oleh lulusan SMA/SMK/MA/MAK dengan beban studi sebanyak 144 sks dan dapat ditempuh dalam waktu 8-14 semester.</p>
         <!-- <a href="#" class="link-content">Selengkapnya -></a> -->
       </div>
     </div>
@@ -265,7 +265,7 @@
       <div class="col-md-6">
         <h3 class="title-content">Penelitian</h3>
         <div class="title-content-line"></div>
-        <p class="text-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia esse ipsum voluptatum. Asperiores officiis doloribus qui ratione, nulla magni minima voluptate, tempore hic a consectetur fugiat. Maxime recusandae molestias ab?</p>
+        <p class="text-content">Fakultas Sastra dan Budaya memberikan perhatian khusus terhadap kegiatan-kegiatan penelitian serta mendorong dosen dan mahasiswa untuk melakukan dan mengembangkan berbagai penelitian yang berorientasi untuk memenuhi kebutuhan bangsa.</p>
         <!-- <a href="#" class="link-content">Selengkapnya -></a> -->
       </div>
       <div class="col-md-6 d-flex justify-content-end">

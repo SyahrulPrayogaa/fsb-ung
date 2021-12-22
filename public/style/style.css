@@ -45,6 +45,7 @@ a:hover{
   color: var(--text-color);
   font-weight: normal;
   margin-top: 30px;
+  line-height: 30px;
 }
 .link-content{
   font-size: 15px;
@@ -323,6 +324,7 @@ a:hover{
 }
 .tendik-col .text-content{
   text-align: center;
+  line-height: normal;
 }
 
 .daftar-dosen-card{
