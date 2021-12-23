@@ -39,7 +39,7 @@
 
       <!-- Row Jumlah Mahasiswa -->
       <div class="row d-flex justify-content-center">
-        <div class="col-xl-6 col-lg-8 col-md-10 col-sm-12 ">
+        <div class="col-xl-6 col-lg-7 col-md-9 col-sm-12 ">
           <div class="chart-box">
             <canvas id="mahasiswaChart1" width="400"></canvas>
             <div class="chart-info">
@@ -242,26 +242,24 @@
 <!-- end of jumlah dosen Chart -->
 
 <!-- Pendidikan -->
-<div class="pendidikan">
-  <div class="container">
+<div class="penelitian">
+  <div class="container mb-5">
     <div class="row">
       <div class="col-md-6 d-flex justify-content-center">
-        <img src="assets/img/Pendidikan.jpg" alt="">
+        <img src="assets/img/professor.svg" alt="">
       </div>
-      <div class="col-md-5">
-        <h3 class="title-content mt-5">Pendidikan</h3>
+      <div class="col-md-6">
+        <h3 class="title-content">Pendidikan</h3>
         <div class="title-content-line"></div>
         <p class="text-content">Fakultas Sastra dan Budaya memiliki 3 jurusan yang menyelenggarakan pendidikan program sarjana yang dapat diikuti oleh lulusan SMA/SMK/MA/MAK dengan beban studi sebanyak 144 sks dan dapat ditempuh dalam waktu 8-14 semester.</p>
         <!-- <a href="#" class="link-content">Selengkapnya -></a> -->
       </div>
     </div>
   </div>
-</div>
-<!-- End of Pendidikan -->
+  <!-- End of Pendidikan -->
 
-<!-- Penelitian -->
-<div class="penelitian">
-  <div class="container">
+  <!-- Penelitian -->
+  <div class="container mt-5">
     <div class="row">
       <div class="col-md-6">
         <h3 class="title-content">Penelitian</h3>
@@ -269,12 +267,9 @@
         <p class="text-content">Fakultas Sastra dan Budaya memberikan perhatian khusus terhadap kegiatan-kegiatan penelitian serta mendorong dosen dan mahasiswa untuk melakukan dan mengembangkan berbagai penelitian yang berorientasi untuk memenuhi kebutuhan bangsa.</p>
         <!-- <a href="#" class="link-content">Selengkapnya -></a> -->
       </div>
-      <div class="col-md-6 d-flex justify-content-end">
-        <img src="assets/img/penelitian2.jpg" alt="">
+      <div class="col-md-6 d-flex justify-content-center order-md-2 order-first">
+        <img src="assets/img/file_analysis.svg" alt="">
       </div>
-    </div>
-    <div class="row">
-      <img src="assets/img/penelitian1.jpg" alt="" class="penelitian-img">
     </div>
   </div>
 </div>

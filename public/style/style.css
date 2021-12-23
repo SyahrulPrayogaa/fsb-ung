@@ -174,37 +174,17 @@ a:hover{
 
 /* End of Statistik */
 
-/* pendidikan */
-.pendidikan{
-  margin: 80px 40px;
-}
-.pendidikan .title-content-line{
-  width: 50%;
-  margin-left: -125px;
-}
-.pendidikan img{
-  width: 60%;
-  object-fit: cover;
-}
-/* end of pendidikan */
-
-
 /* Penelitian */
   .penelitian{
-    margin:80px 40px;
+    margin:50px 20px;
   }
   .penelitian .title-content-line{
     width: 50%;
     margin-left: -125px;
   }
   .penelitian img{
-    width: 100%;
-    margin-top: 30px;
-    object-fit: cover;
-  }
-
-  .penelitian .penelitian-img{
-    display: none;
+    width: 60%;
+    margin-top: -30px;
   }
   
 /* End of Penelitian */
