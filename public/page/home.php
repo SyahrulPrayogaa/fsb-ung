@@ -43,7 +43,8 @@
           <div class="chart-box">
             <canvas id="mahasiswaChart1" width="400"></canvas>
             <div class="chart-info">
-              <h2 class="num-title">1024</h2>
+              <h2 class="num-title">11</h2>
+              <div class="num-line"></div>
               <h4 class="text-content text-center">Jumlah Mahasiswa</h4>
             </div>
           </div>

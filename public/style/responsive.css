@@ -212,10 +212,6 @@
   font-size: 60px;
 }
 
-.num-title::after{
-  margin: 85px -47px;
-}
-
 .jurusan .title-content-line{
   width: 20%;
   margin-left: -100px;

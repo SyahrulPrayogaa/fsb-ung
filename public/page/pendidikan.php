@@ -127,7 +127,7 @@
                   <span aria-hidden="true">&laquo;</span>
                 </a>
               </li>
-              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item active"><a class="page-link" href="#">1</a></li>
               <li class="page-item"><a class="page-link" href="#">2</a></li>
               <li class="page-item"><a class="page-link" href="#">3</a></li>
               <li class="page-item">
@@ -196,6 +196,7 @@
           <canvas id="mahasiswaChart" width="400"></canvas>
           <div class="chart-info">
             <h2 class="num-title">1024</h2>
+            <div class="num-line"></div>
             <h4 class="text-content text-center">Jumlah Mahasiswa</h4>
           </div>
         </div>
@@ -205,6 +206,7 @@
           <canvas id="alumniChart" width="400"></canvas>
           <div class="chart-info">
             <h2 class="num-title">1024</h2>
+            <div class="num-line"></div>
             <h4 class="text-content text-center">Jumlah Alumni</h4>
           </div>
         </div>
