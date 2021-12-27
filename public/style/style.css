@@ -233,7 +233,7 @@ a:hover{
 
 /* ===========Jumbotron========== */
 .jumbotron{
-  background-image: url("img/jumbotron.jpg");
+  background-image: url("img/kampus-fsb.jpg");
   background-size: cover;
   height: 500px;
 }
@@ -252,7 +252,7 @@ a:hover{
   margin-bottom: 50px;
 }
 .tentang-jumbotron-img{
-  background-image: url("img/jumbotron.jpg");
+  background-image: url("img/kampus-fsb.jpg");
   background-size: cover;
   height: 250px;
   width: 100%;
@@ -271,7 +271,7 @@ a:hover{
   margin-bottom: 50px;
 }
 .pendidikan-jumbotron-img{
-  background-image: url("img/jumbotron.jpg");
+  background-image: url("img/kampus-fsb.jpg");
   background-size: cover;
   height: 250px;
   width: 100%;

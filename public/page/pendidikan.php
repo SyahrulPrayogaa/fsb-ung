@@ -28,20 +28,24 @@
           <div class="row d-flex justify-content-center">
             <div class="col-xs-6 tendik-col">
               <h2 class="num-title">10</h2>
+              <div class="num-line"></div>
               <h4 class="text-content">Profesor</h4>
             </div>
             <div class="col-xs-6 tendik-col">
               <h2 class="num-title">10</h2>
+              <div class="num-line"></div>
               <h4 class="text-content">Lektor Kepala</h4>
             </div>
           </div>
           <div class="row d-flex justify-content-center">
             <div class="col-xs-6 tendik-col">
               <h2 class="num-title">10</h2>
+              <div class="num-line"></div>
               <h4 class="text-content">Lektor</h4>
             </div>
             <div class="col-xs-6 tendik-col">
               <h2 class="num-title">10</h2>
+              <div class="num-line"></div>
               <h4 class="text-content">Asisten Ahli & Pengajar</h4>
             </div>
           </div>

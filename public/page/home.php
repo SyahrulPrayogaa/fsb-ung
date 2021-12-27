@@ -1,13 +1,13 @@
 <!-- Carousel Jumbotron -->
 <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
+  <!-- <ol class="carousel-indicators">
     <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselIndicators" data-slide-to="1"></li>
     <li data-target="#carouselIndicators" data-slide-to="2"></li>
-  </ol>
+  </ol> -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="assets/img/jumbotron-ung.jpeg" class="d-block w-100" alt="...">
+      <img src="assets/img/kampus-fsb.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption">
         <h3 class="display-4">Fakultas Sastra dan Budaya</h3>
         <h3 class="display-6">Universitas Negeri Gorontalo</h3>
@@ -59,20 +59,24 @@
           <div class="row d-flex justify-content-center">
             <div class="col-xs-6 tendik-col">
               <h2 class="num-title">10</h2>
+              <div class="num-line"></div>
               <h4 class="text-content">Profesor</h4>
             </div>
             <div class="col-xs-6 tendik-col">
               <h2 class="num-title">10</h2>
+              <div class="num-line"></div>
               <h4 class="text-content">Lektor Kepala</h4>
             </div>
           </div>
           <div class="row d-flex justify-content-center">
             <div class="col-xs-6 tendik-col">
               <h2 class="num-title">10</h2>
+              <div class="num-line"></div>
               <h4 class="text-content">Lektor</h4>
             </div>
             <div class="col-xs-6 tendik-col">
               <h2 class="num-title">10</h2>
+              <div class="num-line"></div>
               <h4 class="text-content">Asisten Ahli & Pengajar</h4>
             </div>
           </div>
