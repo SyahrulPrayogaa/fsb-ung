@@ -39,7 +39,7 @@
 
       <!-- Row Jumlah Mahasiswa -->
       <div class="row d-flex justify-content-center">
-        <div class="col-xl-6 col-lg-7 col-md-9 col-sm-12 ">
+        <div class="col-xl-6 col-lg-7 col-md-10 col-sm-12 ">
           <div class="chart-box">
             <canvas id="mahasiswaChart1" width="400"></canvas>
             <div class="chart-info">

@@ -172,11 +172,21 @@ a:hover{
   background-color: white;
   padding: 20px;
 }
-
 .statistik .title-content{
   text-align: center;
 }
 
+.statistik .chart-info{
+  margin-top: -210px;
+  margin-bottom: 160px;
+}
+.statistik .chart-info .num-title{
+  font-size: 30px;
+}
+.statistik .chart-info .text-content{
+  font-size: 10px;
+  margin-top: 25px;
+}
 /* End of Statistik */
 
 /* Penelitian */
