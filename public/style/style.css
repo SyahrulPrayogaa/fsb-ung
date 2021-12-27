@@ -149,12 +149,17 @@ a:hover{
 /* End of Navbar */
 
 /* Carousel */
+.carousel-item{
+  height: 100vh;
+}
+
 .carousel-item img{
   height: 100%;
   object-fit: cover;
 }
 .carousel-caption .display-4{
   font-weight: bold;
+  margin-top: -50vh;
 }
 
 /* End of Carousel */
@@ -235,14 +240,14 @@ a:hover{
 .jumbotron{
   background-image: url("img/kampus-fsb.jpg");
   background-size: cover;
-  height: 500px;
+  height: 50vh;
 }
 
 .jumbotron .display-4{
   font-weight: bold;
   color: white;
   text-align: center;
-  margin-top: 170px;
+  margin-top: 18vh;
   font-size: 33px;
 }
 /* =========End Jumbotron======== */
