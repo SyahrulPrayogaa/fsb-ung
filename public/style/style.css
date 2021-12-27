@@ -45,6 +45,7 @@ a:hover{
   color: var(--text-color);
   font-weight: normal;
   margin-top: 30px;
+  line-height: 30px;
 }
 .link-content{
   font-size: 15px;
@@ -81,14 +82,25 @@ a:hover{
   color: var(--text-color);
 }
 
-.num-title::after{
-  position: absolute;
-  content: '';
-  height: 3px;
-  width: 30px;
-  background: var(--secondary);
-  margin: 60px -35px;
+.num-line{
+  border-bottom: solid 3px var(--secondary);
+  width: 25%;
+  margin: 0 auto;
+  margin-bottom: -15px;
 }
+
+.page-item a.page-link{
+  color: var(--text-color) !important;
+  margin-left: 2px;
+}
+.page-item a.page-link:hover{
+  background-color: var(--secondary) !important;
+}
+.page-item.active .page-link{
+  background-color: var(--secondary);
+  border:solid 1px #dee2e6 ;
+}
+
 
 /* End of Custom Utility */
 
@@ -137,15 +149,17 @@ a:hover{
 /* End of Navbar */
 
 /* Carousel */
-.carousel{
-  margin-top: 55px;
+.carousel-item{
+  height: 100vh;
 }
+
 .carousel-item img{
   height: 100%;
   object-fit: cover;
 }
 .carousel-caption .display-4{
   font-weight: bold;
+  margin-top: -50vh;
 }
 
 /* End of Carousel */
@@ -154,48 +168,38 @@ a:hover{
 .statistik{
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   border-radius: 30px;
-  margin-top: -30px;
+  margin-top: 50px;
   background-color: white;
   padding: 20px;
 }
-
 .statistik .title-content{
   text-align: center;
 }
 
+.statistik .chart-info{
+  margin-top: -210px;
+  margin-bottom: 160px;
+}
+.statistik .chart-info .num-title{
+  font-size: 30px;
+}
+.statistik .chart-info .text-content{
+  font-size: 10px;
+  margin-top: 25px;
+}
 /* End of Statistik */
-
-/* pendidikan */
-.pendidikan{
-  margin: 80px 40px;
-}
-.pendidikan .title-content-line{
-  width: 50%;
-  margin-left: -125px;
-}
-.pendidikan img{
-  width: 60%;
-  object-fit: cover;
-}
-/* end of pendidikan */
-
 
 /* Penelitian */
   .penelitian{
-    margin:80px 40px;
+    margin:50px 20px;
   }
   .penelitian .title-content-line{
     width: 50%;
     margin-left: -125px;
   }
   .penelitian img{
-    width: 100%;
-    margin-top: 30px;
-    object-fit: cover;
-  }
-
-  .penelitian .penelitian-img{
-    display: none;
+    width: 60%;
+    margin-top: -30px;
   }
   
 /* End of Penelitian */
@@ -244,16 +248,16 @@ a:hover{
 
 /* ===========Jumbotron========== */
 .jumbotron{
-  background-image: url("/assets/img/jumbo-penelitian.jpg");
+  background-image: url("img/kampus-fsb.jpg");
   background-size: cover;
-  height: 500px;
+  height: 50vh;
 }
 
 .jumbotron .display-4{
   font-weight: bold;
   color: white;
   text-align: center;
-  margin-top: 170px;
+  margin-top: 18vh;
   font-size: 33px;
 }
 /* =========End Jumbotron======== */
@@ -263,7 +267,7 @@ a:hover{
   margin-bottom: 50px;
 }
 .tentang-jumbotron-img{
-  background-image: url("/assets/img/jumbo-penelitian.jpg");
+  background-image: url("img/kampus-fsb.jpg");
   background-size: cover;
   height: 250px;
   width: 100%;
@@ -282,7 +286,7 @@ a:hover{
   margin-bottom: 50px;
 }
 .pendidikan-jumbotron-img{
-  background-image: url("/assets/img/jumbo-penelitian.jpg");
+  background-image: url("img/kampus-fsb.jpg");
   background-size: cover;
   height: 250px;
   width: 100%;
@@ -319,10 +323,11 @@ a:hover{
 }
 
 .tendik-col .num-title{
-  font-size: 40px;
+  font-size: 30px;
 }
 .tendik-col .text-content{
   text-align: center;
+  line-height: normal;
 }
 
 .daftar-dosen-card{
@@ -335,8 +340,8 @@ a:hover{
 }
 
 .daftar-dosen-card img{
-  width: 125px;
-  height: 125px;
+  width: 140px;
+  height: 140px;
   object-fit: cover;
 }
 
@@ -346,7 +351,7 @@ a:hover{
 
 .title-daftar-dosen{
   position: relative;
-  width: 125px;
+  width: 140px;
   height: 50px;
   background-color: var(--primary);
   color: white;
@@ -358,7 +363,7 @@ a:hover{
 .title-daftar-dosen p{
   position: relative;
   top: 20%;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: normal;
   text-align: center;
 }
@@ -411,16 +416,15 @@ a:hover{
   margin: 20px;
 }
 
-.chart-info{
-  margin-top: -300px;
-  margin-bottom: 250px;
+.mahasiswa .chart-info{
+  margin-top: -230px;
+  margin-bottom: 150px;
 }
-.chart-info .num-title{
-  font-size: 50px;
+.mahasiswa .chart-info .num-title{
+  font-size: 35px;
 }
-.chart-info .num-title::after{
-  position: absolute;
-  content: '';
-  margin: 60px -70px;
+.mahasiswa .chart-info .text-content{
+  font-size: 12px;
+  margin-top: 25px;
 }
 /* =========End Pendidikan======== */
