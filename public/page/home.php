@@ -115,136 +115,6 @@
 </div>
 <!-- End of Statistik -->
 
-<!-- Chart Mahasiswa -->
-<script>
-  const ctx2 = document.getElementById('mahasiswaChart1').getContext('2d');
-  const myChart2 = new Chart(ctx2, {
-    type: 'doughnut',
-    data: {
-      labels: ['Pendidikan bahasa & sastra indonesia', 'Pendidikan bahasa inggris', 'pendidikan seni drama tari dan musik'],
-      datasets: [{
-        label: '# of Votes',
-        data: [120, 190, 100],
-        backgroundColor: [
-          '#10002B', '#3C096C', '#FF9E00',
-        ],
-        borderColor: [
-          'white'
-        ],
-        borderWidth: 1,
-        cutout: '70%'
-      }]
-    },
-    options: {
-      plugins: {
-        legend: {
-          position: 'bottom',
-          align: 'center',
-        }
-      },
-      layout: {}
-    }
-  });
-</script>
-<!-- end of Chart Mahasiswa -->
-
-<!-- Penelitian Chart -->
-<script>
-  const ctx3 = document.getElementById('penelitianChart').getContext('2d');
-  const myChart3 = new Chart(ctx3, {
-    type: 'bar',
-    data: {
-      labels: ['Jurnal Penelitian', 'Prosiding', 'HKI', 'penelitian', 'Hak Paten'],
-      datasets: [{
-        label: 'DATA PENELITIAN',
-        data: [120, 190, 100, 50, 60],
-        backgroundColor: [
-          '#5A198A', '#10002B', '#FF9E00', '#9D4EDD', '#FF6D00'
-        ],
-        borderColor: [
-          'white'
-        ],
-        borderWidth: 1,
-      }]
-    },
-    options: {
-      plugins: {
-        legend: {
-          position: 'top',
-          align: 'center',
-        }
-      },
-      layout: {}
-    }
-  });
-</script>
-<!-- end of Penelitian Chart -->
-
-<!-- Pengabdian Chart -->
-<script>
-  const ctx4 = document.getElementById('pengabdianChart').getContext('2d');
-  const myChart4 = new Chart(ctx4, {
-    type: 'bar',
-    data: {
-      labels: ['Pengabdian', 'Laporan Pengabdian', 'HKI', 'penelitian', 'Hak Paten'],
-      datasets: [{
-        label: 'DATA PENGABDIAN',
-        data: [100, 90, 40, 30, 95],
-        backgroundColor: [
-          '#5A198A', '#10002B', '#FF9E00', '#9D4EDD', '#FF6D00'
-        ],
-        borderColor: [
-          'white'
-        ],
-        borderWidth: 1,
-      }]
-    },
-    options: {
-      plugins: {
-        legend: {
-          position: 'top',
-          align: 'center',
-        }
-      },
-      layout: {}
-    }
-  });
-</script>
-<!-- end of Pengabdian Chart -->
-
-<!-- jumlah dosen Chart -->
-<script>
-  const ctx5 = document.getElementById('dosenChart').getContext('2d');
-  const myChart5 = new Chart(ctx5, {
-    type: 'bar',
-    data: {
-      labels: ['Basindo', 'Pbi', 'Sendratasik'],
-      datasets: [{
-        label: 'DATA JUMLAH DOSEN',
-        data: [25, 35, 20],
-        backgroundColor: [
-          '#10002B', '#3C096C', '#FF9E00',
-        ],
-        borderColor: [
-          'white'
-        ],
-        borderWidth: 1,
-        cutout: '10'
-      }]
-    },
-    options: {
-      plugins: {
-        legend: {
-          position: 'top',
-          align: 'center',
-        }
-      },
-      layout: {}
-    }
-  });
-</script>
-<!-- end of jumlah dosen Chart -->
-
 <!-- Pendidikan -->
 <div class="penelitian">
   <div class="container mb-5">
@@ -278,3 +148,127 @@
   </div>
 </div>
 <!-- End of Penelitian -->
+
+
+
+<script>
+  $(document).ready(function() {
+    // Chart Mahasiswa
+    const ctx2 = document.getElementById('mahasiswaChart1').getContext('2d');
+    const myChart2 = new Chart(ctx2, {
+      type: 'doughnut',
+      data: {
+        labels: ['Pendidikan bahasa & sastra indonesia', 'Pendidikan bahasa inggris', 'pendidikan seni drama tari dan musik'],
+        datasets: [{
+          label: '# of Votes',
+          data: [120, 190, 100],
+          backgroundColor: [
+            '#10002B', '#3C096C', '#FF9E00',
+          ],
+          borderColor: [
+            'white'
+          ],
+          borderWidth: 1,
+          cutout: '70%'
+        }]
+      },
+      options: {
+        plugins: {
+          legend: {
+            position: 'bottom',
+            align: 'center',
+          }
+        },
+        layout: {}
+      }
+    });
+
+    // Penelitian Chart
+    const ctx3 = document.getElementById('penelitianChart').getContext('2d');
+    const myChart3 = new Chart(ctx3, {
+      type: 'bar',
+      data: {
+        labels: ['Jurnal Penelitian', 'Prosiding', 'HKI', 'penelitian', 'Hak Paten'],
+        datasets: [{
+          label: 'DATA PENELITIAN',
+          data: [120, 190, 100, 50, 60],
+          backgroundColor: [
+            '#5A198A', '#10002B', '#FF9E00', '#9D4EDD', '#FF6D00'
+          ],
+          borderColor: [
+            'white'
+          ],
+          borderWidth: 1,
+        }]
+      },
+      options: {
+        plugins: {
+          legend: {
+            position: 'top',
+            align: 'center',
+          }
+        },
+        layout: {}
+      }
+    });
+
+    // Pengabdian Chart
+    const ctx4 = document.getElementById('pengabdianChart').getContext('2d');
+    const myChart4 = new Chart(ctx4, {
+      type: 'bar',
+      data: {
+        labels: ['Pengabdian', 'Laporan Pengabdian', 'HKI', 'penelitian', 'Hak Paten'],
+        datasets: [{
+          label: 'DATA PENGABDIAN',
+          data: [100, 90, 40, 30, 95],
+          backgroundColor: [
+            '#5A198A', '#10002B', '#FF9E00', '#9D4EDD', '#FF6D00'
+          ],
+          borderColor: [
+            'white'
+          ],
+          borderWidth: 1,
+        }]
+      },
+      options: {
+        plugins: {
+          legend: {
+            position: 'top',
+            align: 'center',
+          }
+        },
+        layout: {}
+      }
+    });
+
+    // Jumlah Dosen Chart
+    const ctx5 = document.getElementById('dosenChart').getContext('2d');
+    const myChart5 = new Chart(ctx5, {
+      type: 'bar',
+      data: {
+        labels: ['Basindo', 'Pbi', 'Sendratasik'],
+        datasets: [{
+          label: 'DATA JUMLAH DOSEN',
+          data: [25, 35, 20],
+          backgroundColor: [
+            '#10002B', '#3C096C', '#FF9E00',
+          ],
+          borderColor: [
+            'white'
+          ],
+          borderWidth: 1,
+          cutout: '10'
+        }]
+      },
+      options: {
+        plugins: {
+          legend: {
+            position: 'top',
+            align: 'center',
+          }
+        },
+        layout: {}
+      }
+    });
+  })
+</script>
