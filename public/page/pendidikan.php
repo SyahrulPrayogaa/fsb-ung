@@ -194,10 +194,10 @@
     <h3 class="title-content text-right">Mahasiswa</h3>
     <div class="title-content-line"></div>
 
-    <div class="row mt-4">
-      <div class="col-md d-flex justify-content-center">
+    <div class="row mt-4 d-flex justify-content-center">
+      <div class="col-md-6 col-7 d-flex justify-content-center">
         <div class="chart-box">
-          <canvas id="mahasiswaChart" width="400"></canvas>
+          <canvas id="mahasiswaChart" width="300"></canvas>
           <div class="chart-info">
             <h2 class="num-title">1024</h2>
             <div class="num-line"></div>
@@ -205,9 +205,9 @@
           </div>
         </div>
       </div>
-      <div class="col-md d-flex justify-content-center">
+      <div class="col-md-6 col-7 d-flex justify-content-center">
         <div class="chart-box">
-          <canvas id="alumniChart" width="400"></canvas>
+          <canvas id="alumniChart" width="300"></canvas>
           <div class="chart-info">
             <h2 class="num-title">1024</h2>
             <div class="num-line"></div>
@@ -244,7 +244,7 @@
       plugins: {
         legend: {
           position: 'bottom',
-          align: 'start',
+          align: 'center',
         }
       },
       layout: {}
@@ -277,7 +277,7 @@
       plugins: {
         legend: {
           position: 'bottom',
-          align: 'start',
+          align: 'center',
         }
       }
     }

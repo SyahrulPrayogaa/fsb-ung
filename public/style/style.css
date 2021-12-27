@@ -406,11 +406,15 @@ a:hover{
   margin: 20px;
 }
 
-.chart-info{
-  margin-top: -300px;
-  margin-bottom: 250px;
+.mahasiswa .chart-info{
+  margin-top: -230px;
+  margin-bottom: 150px;
 }
-.chart-info .num-title{
-  font-size: 50px;
+.mahasiswa .chart-info .num-title{
+  font-size: 35px;
+}
+.mahasiswa .chart-info .text-content{
+  font-size: 12px;
+  margin-top: 25px;
 }
 /* =========End Pendidikan======== */

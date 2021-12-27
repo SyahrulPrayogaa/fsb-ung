@@ -52,6 +52,23 @@
     font-size: 40px;
   }
 /* =========End Jumbotron======== */
+
+/* ===========Pendidikan========== */
+  .mahasiswa canvas{
+    width: 400px;
+  }
+  .mahasiswa .chart-info{
+    margin-top: -300px;
+    margin-bottom: 250px;
+  }
+  .mahasiswa .chart-info .num-title{
+    font-size: 50px;
+  }
+  .mahasiswa .chart-info .text-content{
+    font-size: 15px;
+  }
+
+/* =========End Pendidikan======== */
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
