@@ -126,7 +126,7 @@
         <h3 class="title-content">Pendidikan</h3>
         <div class="title-content-line"></div>
         <p class="text-content">Fakultas Sastra dan Budaya memiliki 3 jurusan yang menyelenggarakan pendidikan program sarjana yang dapat diikuti oleh lulusan SMA/SMK/MA/MAK dengan beban studi sebanyak 144 sks dan dapat ditempuh dalam waktu 8-14 semester.</p>
-        <!-- <a href="#" class="link-content">Selengkapnya -></a> -->
+        <a href="#" class="link-content" id="pendidikan-selengkapnya">Selengkapnya -></a>
       </div>
     </div>
   </div>
@@ -139,7 +139,7 @@
         <h3 class="title-content">Penelitian</h3>
         <div class="title-content-line"></div>
         <p class="text-content">Fakultas Sastra dan Budaya memberikan perhatian khusus terhadap kegiatan-kegiatan penelitian serta mendorong dosen dan mahasiswa untuk melakukan dan mengembangkan berbagai penelitian yang berorientasi untuk memenuhi kebutuhan bangsa.</p>
-        <!-- <a href="#" class="link-content">Selengkapnya -></a> -->
+        <a href="#" class="link-content" id="penelitian-selengkapnya">Selengkapnya -></a>
       </div>
       <div class="col-md-6 d-flex justify-content-center order-md-2 order-first">
         <img src="assets/img/file_analysis.svg" alt="">
@@ -270,5 +270,16 @@
         layout: {}
       }
     });
+
+    $('#pendidikan-selengkapnya').click(function() {
+      $('.nav-link').removeClass('active');
+      $('#pendidikan').addClass('active');
+      $('#main-content').load('./public/page/pendidikan.php');
+    })
+    $('#penelitian-selengkapnya').click(function() {
+      $('.nav-link').removeClass('active');
+      $('#penelitian').addClass('active');
+      $('#main-content').load('./public/page/penelitian.php');
+    })
   })
 </script>
